@@ -1,0 +1,14 @@
+<p>
+mycomp works!
+</p>
+{{demo}}
+<button (click) = "fun()">Click</button>
+
+<ul>
+<li *ngFor = "let name of names">Hello <b>{{name}}</b></li>
+</ul>
+<ul>
+    <li *ngFor = "let name of names">
+        <app-useritem[name] = "name"></app-useritem>
+    </li>
+</ul>
